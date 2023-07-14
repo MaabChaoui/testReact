@@ -23,7 +23,7 @@ export default function Hero() {
                 src={img1}
                 alt=""
                 width={400}
-                height={""}
+                height={0}
               />
             </div>
             <div className="rounded-2xl w-[400px] h-[220px] bg-[#656565] overflow-hidden flex ic relative">
@@ -32,7 +32,7 @@ export default function Hero() {
                 src={img2}
                 alt=""
                 width={400}
-                height={""}
+                height={0}
               />
             </div>
           </div>
@@ -43,7 +43,7 @@ export default function Hero() {
                 src={img3}
                 alt=""
                 width={400}
-                height={""}
+                height={0}
               />
             </div>
             <div className="rounded-2xl w-[400px] h-[220px] bg-[#656565] overflow-hidden flex ic relative">
@@ -51,8 +51,8 @@ export default function Hero() {
                 className="hover:scale-110 duration-200 cursor-pointer absolute -top-2 min-w-[400px] min-h-[220px] "
                 src={img4}
                 alt=""
-                width={""}
-                height={""}
+                width={0}
+                height={0}
               />
             </div>
           </div>
